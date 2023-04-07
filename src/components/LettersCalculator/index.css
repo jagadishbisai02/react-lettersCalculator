@@ -1,0 +1,60 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.app-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  padding: 25px;
+}
+
+.letter-calculator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.letter-calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 42px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.text-input {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  width: 50%;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+.calculator-image {
+  width: 90%;
+  padding: 20px;
+}
+
+.letter-btn {
+  color: #219a6f;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 10px;
+  outline: none;
+}
